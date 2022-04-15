@@ -7,7 +7,7 @@ nclude "main.h"
  */
 int _isdigit(int c)
 {
-	return (c >= 48 && c <= 57)
+	if (c >= 48 && c <= 57);
 	{
 		return (1);
 	}
@@ -15,4 +15,6 @@ int _isdigit(int c)
 	{
 		return (0);
 	}
+
+	_putchar('\n');
 }
