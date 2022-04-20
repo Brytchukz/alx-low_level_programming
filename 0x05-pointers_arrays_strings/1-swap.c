@@ -2,8 +2,8 @@
 
 /**
  * swap_int - swap the values of two integer a and b
- * @a: A pointer to an int that will be updated
- * @b: B pointer to an int that will be updated
+ *@a: A pointer to an int that will be updated
+ *@b: B pointer to an int that will be updated
  * Return: void that means our answer is correct
  */
 
