@@ -3,30 +3,20 @@
 /**
  * print_number - print a number using _putchar.
  * @n: the number to be printed.
+ *
  */
-
 void print_number(int n)
 {
-	unsigned int i = 1;
+	unsigned int i = n;
 
 	if (n < 0)
 	{
-		_putchar('-');
-		n *= -1;
+		_putchar(45);
+		i = -1;
 	}
-	if (n == 0)
-		_putchar('0');
-	else
+	if (i / 10)
 	{
-		while ((n / i) >= 10)
-			i *= 10;
-
-		while (i > 0)
-		{
-			_putchar((n / i) + '0');
-			n %= i;
-			i /= 10;
-		}
+		print_number( 1 / 10 );
 	}
+	_putchar(i % 10 + '0');
 }
-
