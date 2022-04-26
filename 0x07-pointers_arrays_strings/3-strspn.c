@@ -2,7 +2,7 @@
 
 /**
  * _strspn - gets the length of a prefix substring
- * @s: number of bytes in the initial segment for substring
+ * @s: input string to search for substring
  * @accept: length of prefix substring
  * length of prefix substring
  */
