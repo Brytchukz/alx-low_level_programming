@@ -2,8 +2,8 @@
 
 /**
  * _memset - fills string with constant char b upto n bytes
- * @s: pointer to string
- * @b: constant character
+ * @s: input pointer to string
+ * @b: constant char
  * @n: number of bytes
  * Return: constant to s string
  */
