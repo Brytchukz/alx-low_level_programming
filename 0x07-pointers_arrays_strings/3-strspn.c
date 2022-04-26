@@ -2,8 +2,9 @@
 
 /**
  * _strspn - gets the length of a prefix substring
- * @s: input string to search for substring
+ * @s: number of bytes in the initial segment for substring
  * @accept: length of prefix substring
+ * length of prefix substring
  */
 
 unsigned int _strspn(char *s, char *accept)
