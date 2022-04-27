@@ -1,9 +1,11 @@
 #include "main.h"
 
 /**
- * print_chessboard - a function that prints a chessboard
- * @a: an array input to print
- * Return: Nothing
+ * print_chessboard - prints buffer in hexa
+ * @a: cheese
+ * needle: buffer2
+ *
+ * Return: Nothing.
  */
 void print_chessboard(char (*a)[8])
 {
@@ -13,8 +15,8 @@ void print_chessboard(char (*a)[8])
 	{
 		for (j = 0; j < 8; j++)
 		{
-			_putchar(a[i][j]);
+			_putchar (a[i][j]);
 		}
-		_putchar('\n');
-	}
-}
+	_putchar('\n');
+		}
+} 
