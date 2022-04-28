@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * fractional - gets factorial of n
+ * factorial - gets factorial of n
  * @n: integer
  *
  * Return: On success 1.
