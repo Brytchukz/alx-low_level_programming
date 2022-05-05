@@ -3,12 +3,12 @@
 #include <stdlib.h>
 
 /**
- * create_array - create an array of char, and initializes it with
+ * create_array - creates an array of chars, and initializes it with
  * a specific char
  * @size: size of array
- * @c: character to initalize
+ * @c: character to initialize with
  *
- * Return: pointer
+ * Return: Pointer
  */
 char *create_array(unsigned int size, char c)
 {
@@ -16,7 +16,7 @@ char *create_array(unsigned int size, char c)
 	char *s;
 
 	if (size <= 0)
-		return(0);
+		return (0);
 
 	s = malloc(sizeof(char) * size);
 
@@ -24,9 +24,9 @@ char *create_array(unsigned int size, char c)
 		return (0);
 
 	for (i = 0; i < size; i++)
-		*(s + 1) = c;
+		*(s + i) = c;
 
-	*(s + 1) = '\0';
+	*(s + i) = '\0';
 
 	return (s);
 }
