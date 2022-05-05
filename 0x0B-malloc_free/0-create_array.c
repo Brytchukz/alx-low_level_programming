@@ -3,7 +3,8 @@
 #include <stdlib.h>
 
 /**
- * create_array - create an array of char, and initializes it with a specific char
+ * create_array - create an array of char, and initializes it with
+ * a specific char
  * @size: size of array
  * @c: character to initalize
  *
@@ -23,9 +24,9 @@ char *create_array(unsigned int size, char c)
 		return (0);
 
 	for (i = 0; i < size; i++)
-		*(s+1) = c;
+		*(s + 1) = c;
 
-	*(s+1) = '\0';
+	*(s + 1) = '\0';
 
 	return (s);
 }
