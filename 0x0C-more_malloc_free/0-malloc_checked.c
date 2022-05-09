@@ -4,12 +4,12 @@
 /**
  * malloc_checked - allocate memory.
  * @b: size of the memory to be allocated.
- * Return: pointer;
+ * Return: pointer.
  */
 
 void *malloc_checked(unsigned int b);
 {
-	char *ptr;
+	void *ptr;
 
 	ptr = malloc(b);
 
