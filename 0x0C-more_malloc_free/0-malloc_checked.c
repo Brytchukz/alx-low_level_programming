@@ -1,14 +1,14 @@
-#include "main.h"
 #include <stdlib.h>
+#include "main.h"
 
 /**
- * *malloc_checked - allocate memory.
- * @b: size of the memory to be allocated.
+ * *malloc_checked - allocate memory
+ * @b: number of bytes to allocate
  *
- * Return: pointer.
+ * Return: a pointer to the allocated memory
  */
 
-void *malloc_checked(unsigned int b);
+void *malloc_checked(unsigned int b)
 {
 	void *ptr;
 
