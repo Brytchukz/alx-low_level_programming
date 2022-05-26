@@ -18,10 +18,10 @@ listint_t *add_nodeint(listint_t **head, const int n)
 	if (nodePtr first == NULL)
 		return(NULL);
 
-	nodePtr.n = n;
-	nodePtr.next = *head;
+	nodePtr first.n = n;
+	nodePtr first.next = *head;
 
-	*head = nodePtr;
+	*head = nodePtr first;
 	
 	return (*head);
 }
