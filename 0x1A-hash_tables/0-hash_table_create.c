@@ -24,18 +24,3 @@ hash_table_t *hash_table_create(unsigned long int size)
 		ht->array[i] = NULL;
 
 	return (ht);
-}
-Footer
-© 2022 GitHub, Inc.
-Footer navigation
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
